@@ -1,0 +1,12 @@
+[[team]]
+name = "Radovan Bast"
+picture = "bast.jpg"
+homepage = "https://bast.fr"
+text = "Some short text about my involvement"
+
+# other persons can be added like this:
+#[[team]]
+#name = "Radovan Bast"
+#picture = "bast.jpg"
+#homepage = "https://bast.fr"
+#text = "Some short text about my involvement"
