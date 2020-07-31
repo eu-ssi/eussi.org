@@ -48,3 +48,13 @@ Install [Zola](https://www.getzola.org/), then run:
 ```
 $ zola serve
 ```
+
+
+### Why Zola and not X?
+
+Radovan: sorry, personal choice but I have been working with a number of static
+site generators and this one stands out in terms of design, good defaults,
+folder layout, functionality, and minimal dependencies.
+
+But like any other static site generator, we will mostly only need to edit
+Markdown files.  I can help with everything else.
