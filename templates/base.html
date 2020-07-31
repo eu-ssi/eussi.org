@@ -70,7 +70,7 @@
           <nav>
             <div class="topnav" id="mytopnav">
               {% for link in config.extra.navigation %}
-                <a href="{{ link.path | safe }}">{{ link.name }}</a>
+                <a href="{{ config.base_url ~ link.path | safe }}">{{ link.name }}</a>
               {% endfor %}
               <a href="javascript:void(0);" class="icon" onclick="toggle_hamburger()">
                 <i class="fa fa-bars"></i>

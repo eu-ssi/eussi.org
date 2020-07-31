@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://eu-ssi.github.io/eussi.org/"
+base_url = "https://eu-ssi.github.io/eussi.org"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -20,7 +20,6 @@ navigation = [
   { name = "About", path = "/" },
   { name = "Consortium", path = "/consortium/" },
   { name = "News", path = "/news/" },
-  { name = "GitHub", path = "https://github.com/eu-ssi" }
 ]
 
 profile_logo = "logo.png"
