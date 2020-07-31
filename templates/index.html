@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ section.content | safe }}
+
+  {% set news = get_section(path="news/_index.md") %}
+  {% set latest = news.pages.0 %}
+
+  <div class="latest-container">
+    {% if latest %}
+      Latest post: "<a href="{{ latest.permalink | safe }}">{{ latest.title }}</a>"
+    {% endif %}
+  </div>
+
+{% endblock content %}

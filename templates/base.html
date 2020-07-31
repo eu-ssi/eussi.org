@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <style>
+      :root {
+        --accent-color: {{ config.extra.accent }};
+        --accent-color-light: {{ config.extra.accent_light }};
+      }
+    </style>
+
+    <meta name="theme-color" content="{{ config.extra.accent }}" />
+    <link rel="icon" href="{{ resize_image(path=config.extra.profile_logo, width=48, height=48, op="fill") | safe }}" />
+
+    <meta property="og:type" content="website" />
+
+    {% if config.extra.twitter_image %}
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="{{ config.extra.twitter_image | safe }}" />
+    {% endif %}
+
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+      <meta name="twitter:description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="description" content="{{ config.description }}" />
+      <meta name="twitter:description" content="{{ config.description }}" />
+    {% endif %}
+
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+      <meta name="twitter:title" content="{{ config.title }}" />
+    {% endif %}
+
+    <title>
+      {% block title %}
+        {% if page.title %}
+          {{ page.title }}
+        {% else %}
+          {{ config.title }}
+        {% endif %}
+      {% endblock title %}
+    </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/blueprint-css@3.1.1/dist/blueprint.min.css" rel="stylesheet" />
+    <link href="{{ get_url(path="main.css") | safe }}" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div bp="grid">
+        <div bp="12@sm 2@md 2@lg">
+          <a class="profile-icon" href="/">
+            <img src="{{ resize_image(path=config.extra.profile_logo, width=150, height=150, op="fill") | safe }}" alt="profile picture">
+          </a>
+        </div>
+        <div bp="12@sm 10@md 10@lg">
+          <p>
+            {{ config.title }}
+            <br>
+            {{ config.description }}
+          </p>
+          <nav>
+            <div class="topnav" id="mytopnav">
+              {% for link in config.extra.navigation %}
+                <a href="{{ link.path | safe }}">{{ link.name }}</a>
+              {% endfor %}
+              <a href="javascript:void(0);" class="icon" onclick="toggle_hamburger()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      {% block content %} {% endblock content %}
+
+      <hr class="footer-rule" />
+
+      {% if config.extra.footer_about %}
+        <div class="footer-about">
+          {{ config.extra.footer_about | markdown | safe }}
+        </div>
+      {% endif %}
+
+      <script src="/js/own.js"></script>
+    </main>
+  </body>
+</html>
