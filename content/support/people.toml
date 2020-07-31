@@ -1,0 +1,8 @@
+[[people]]
+name = "John Doe"
+homepage = "https://example.org"
+organization = "Example Organization"
+
+[[people]]
+name = "Jane Doe"
+organization = "Example Organization"

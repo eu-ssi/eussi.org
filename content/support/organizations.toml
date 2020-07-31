@@ -1,0 +1,11 @@
+[[organizations]]
+logo = "somelogo.png"
+text = """
+Short description of the organization.
+"""
+
+[[organizations]]
+logo = "somelogo.png"
+text = """
+[Another organization](example.org): short description of the organization.
+"""

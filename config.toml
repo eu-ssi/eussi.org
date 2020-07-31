@@ -19,6 +19,7 @@ description = "One-sentence description of the project ..."
 navigation = [
   { name = "About", path = "/" },
   { name = "Consortium", path = "/consortium/" },
+  { name = "Support", path = "/support/" },
   { name = "News", path = "/news/" },
 ]
 

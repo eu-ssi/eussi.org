@@ -43,6 +43,9 @@ To add data to the consortium team and organizations page, please edit
 and
 [content/consortium/organizations.toml](content/consortium/organizations.toml).
 
+Similarly you can add/edit supporting persons/organizations in
+[content/support](content/support).
+
 Don't hesitate to ask [Radovan Bast](mailto:firstname.lastname@uit.no) for help with
 how to implement some changes that you have in mind.
 
