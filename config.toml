@@ -1,0 +1,37 @@
+# The URL the site will be built for
+base_url = "https://eu-ssi.github.io/eussi.org/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+title = "EUSSI"
+description = "One-sentence description of the project ..."
+
+[extra]
+
+navigation = [
+  { name = "About", path = "/" },
+  { name = "Consortium", path = "/consortium/" },
+  { name = "News", path = "/news/" },
+  { name = "GitHub", path = "https://github.com/eu-ssi" }
+]
+
+profile_logo = "logo.png"
+#twitter_image = ""
+
+accent = "#05a081"
+accent_light = "#82d0c0"
+
+footer_about = """
+Contact: [EUSSI consortium](mailto:eussi@listserv.dfn.de).
+This site is hosted on [GitHub](https://github.com/eu-ssi/eussi.org).
+[Here](https://github.com/eu-ssi/eussi.org/blob/master/README.md) are instructions
+on how to apply/suggest changes.
+"""
