@@ -1,0 +1,15 @@
+[[organizations]]
+logo = "coderefinery.png"
+text = """
+[CodeRefinery](https://coderefinery.org) offers training opportunities to
+researchers from Nordic research groups and projects to learn basic-to-advanced
+research computing skills and become confident in using state-of-the-art tools
+and practices from modern collaborative software engineering.
+"""
+
+# other organizations can be added like this:
+#[[organizations]]
+#logo = "mylogo.png"
+#text = """
+#Some short text about this organization in Markdown"
+#"""

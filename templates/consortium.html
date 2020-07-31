@@ -3,8 +3,8 @@
 {% block content %}
   {{ section.content | safe }}
 
-  {% set data = load_data(path="content/consortium/data.toml") %}
-
+  <h2>The EUSSI consortium team</h2>
+  {% set data = load_data(path="content/consortium/people.toml") %}
   <div bp="grid 6@sm 6@md 4@lg">
     {% for person in data.team %}
       <div class="center">
@@ -20,6 +20,19 @@
         <p>
           {{ person.text }}
         </p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h2>Member organizations</h2>
+  {% set data = load_data(path="content/consortium/organizations.toml") %}
+  <div bp="grid 12@sm 12@md 6@lg">
+    {% for organization in data.organizations %}
+      <div class="center-image">
+        <img src="{{ resize_image(path="consortium/" ~ organization.logo, width=150, op="fit_width") | safe }}"
+             alt="organization logo">
+      <br>
+      {{ organization.text | markdown | safe }}
       </div>
     {% endfor %}
   </div>
