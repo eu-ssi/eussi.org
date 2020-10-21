@@ -7,6 +7,11 @@ research computing skills and become confident in using state-of-the-art tools
 and practices from modern collaborative software engineering.
 """
 
+[[organizations]]
+logo = "eScience_logo.png"
+text = """
+The [Netherlands eScience Center](https://www.esciencecenter.nl/) is the Dutch national hub fro expertise in e-infrastructure (optimized data handling, big data analytics and efficient computing), promoting software sustainability, reuse, collaboration and preventing “reinventing the wheel”."""
+
 # other organizations can be added like this:
 #[[organizations]]
 #logo = "mylogo.png"
