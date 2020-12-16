@@ -16,6 +16,12 @@ picture = "carlos-martinez.jpg"
 homepage = "https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/"
 text = "Carlos is community manager & technolgy lead at the Netherlands eScience Center."
 
+[[team]]
+name = "Carina Haupt"
+picture = "carinahaupt.jpg"
+homepage = "https://www.dlr.de/sc/desktopdefault.aspx/tabid-1192/1635_read-28643/sortby-lastname/"
+text = "Carina is head of the Sustainable Software Sngineering group at German Aerospace Center (DLR)."
+
 # other persons can be added like this:
 #[[team]]
 #name = "Radovan Bast"
