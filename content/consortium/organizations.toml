@@ -17,11 +17,6 @@ logo = "dlr_logo.png"
 text = """
 The [German Aerospace Center (DLR)](https://dlr.de/EN/) is the Federal Republic of Germany's research centre for aeronautics and space. We conduct research and development activities in the fields of aeronautics, space, energy, transport, security and digitalisation."""
 
-[[organizations]]
-logo = "DLR.jpg"
-text = """
-The [German Aerospace Center (DLR)](https://dlr.de/en) DLR is the Federal Republic of Germany's research centre for aeronautics and space. We conduct research and development activities in the fields of aeronautics, space, energy, transport, security and digitalisation."""
-
 # other organizations can be added like this:
 #[[organizations]]
 #logo = "mylogo.png"
