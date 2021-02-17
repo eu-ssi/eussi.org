@@ -10,7 +10,12 @@ and practices from modern collaborative software engineering.
 [[organizations]]
 logo = "eScience_logo.png"
 text = """
-The [Netherlands eScience Center](https://www.esciencecenter.nl/) is the Dutch national hub fro expertise in e-infrastructure (optimized data handling, big data analytics and efficient computing), promoting software sustainability, reuse, collaboration and preventing “reinventing the wheel”."""
+The [Netherlands eScience Center](https://www.esciencecenter.nl/) is the Dutch national hub for expertise in e-infrastructure (optimized data handling, big data analytics and efficient computing), promoting software sustainability, reuse, collaboration and preventing “reinventing the wheel”."""
+
+[[organizations]]
+logo = "dlr_logo.png"
+text = """
+The [German Aerospace Center (DLR)](https://dlr.de/EN/) is the Federal Republic of Germany's research centre for aeronautics and space. We conduct research and development activities in the fields of aeronautics, space, energy, transport, security and digitalisation."""
 
 [[organizations]]
 logo = "DLR.png"
