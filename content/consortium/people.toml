@@ -28,6 +28,18 @@ picture = "carinahaupt.jpg"
 homepage = "https://www.dlr.de/sc/desktopdefault.aspx/tabid-1192/1635_read-28643/sortby-lastname/"
 text = "Carina is head of the Sustainable Software Engineering group at German Aerospace Center (DLR)."
 
+[[team]]
+name = "Martin Hammitzsch"
+picture = "hammitzsch.jpg"
+homepage = "https://www.gfz-potsdam.de/en/staff/martin-hammitzsch/"
+text = "Martin is the head of eScience Centre at Helmholtz Centre Potsdam German Research Centre for Geosciences (GFZ)."
+
+[[team]]
+name = "Bezaye Tesfaye Belayneh"
+picture = "bezaye.jpg"
+homepage = "https://www.gfz-potsdam.de/staff/bezaye-tesfaye-belayneh/id2/"
+text = "Bezaye is a research software engineer at Helmholtz Centre Potsdam German Research Centre for Geosciences (GFZ)."
+
 # other persons can be added like this:
 #[[team]]
 #name = "Radovan Bast"
