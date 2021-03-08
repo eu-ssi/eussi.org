@@ -11,8 +11,8 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-title = "EUSSI"
-description = "One-sentence description of the project ..."
+title = "EuSSI"
+description = "Supporting research software sustainability across Europe and beyond"
 
 [extra]
 
