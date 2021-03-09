@@ -23,7 +23,8 @@ highlight_code = true
 navigation = [
   { name = "About", path = "/" },
   { name = "Consortium", path = "/consortium/" },
-  { name = "Support", path = "/support/" },
+# commented out because we are missing there real names
+# { name = "Support", path = "/support/" },
   { name = "News", path = "/news/" },
 ]
 
