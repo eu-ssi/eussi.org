@@ -22,6 +22,13 @@ logo = "gfz_logo.png"
 text = """
 The [GFZ](https://www.gfz-potsdam.de/) German Research Centre for Geosciences is the national research centre for Earth sciences in Germany. """
 
+[[organizations]]
+logo = "ssi_logo.png"
+text = """
+The [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) is a national facility for better research software, based in the UK. Since 2010, the Software Sustainability Institute has facilitated the advancement of software in research by cultivating better, more sustainable, research software to enable world-class research (“Better software, better research”). 
+"""
+
+
 # other organizations can be added like this:
 #[[organizations]]
 #logo = "mylogo.png"

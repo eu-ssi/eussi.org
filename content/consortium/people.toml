@@ -40,6 +40,12 @@ picture = "bezaye.jpeg"
 homepage = "https://www.gfz-potsdam.de/staff/bezaye-tesfaye-belayneh/id2/"
 text = "Bezaye is a research software engineer at Helmholtz Centre Potsdam German Research Centre for Geosciences (GFZ)."
 
+[[team]]
+name = "Neil Chue Hong"
+picture = "neil_chue_hong.jpg"
+homepage = "https://www.software.ac.uk/about/staff/person/neil-chue-hong"
+text = "Neil is the Director of the Software Sustainability Institute, and a Senior Research Fellow at EPCC, based at the University of Edinburgh."
+
 # other persons can be added like this:
 #[[team]]
 #name = "Radovan Bast"
