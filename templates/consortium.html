@@ -8,7 +8,8 @@
   <div bp="grid 6@sm 6@md 4@lg">
     {% for person in data.team %}
       <div class="center">
-        <img src="{{ resize_image(path="consortium/" ~ person.picture, width=100, height=100, op="fill") | safe }}"
+        {% set member_image = resize_image(path="consortium/" ~ person.picture, width=100, height=100, op="fill") %}
+        <img src="{{ member_image.url }}"
              alt="consortium member picture">
         <br>
         {% if person.homepage %}
@@ -29,7 +30,8 @@
   <div bp="grid 12@sm 12@md 6@lg">
     {% for organization in data.organizations %}
       <div class="center-image">
-        <img src="{{ resize_image(path="consortium/" ~ organization.logo, width=150, op="fit_width") | safe }}"
+        {% set org_image = resize_image(path="consortium/" ~ organization.logo, width=150, op="fit_width") %}
+        <img src="{{ org_image.url }}"
              alt="organization logo">
       <br>
       {{ organization.text | markdown | safe }}
