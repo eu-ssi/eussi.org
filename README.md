@@ -14,7 +14,7 @@ Templates and Sass sources adapted from https://github.com/bennetthardwick/simpl
 The website sources are hosted on GitHub (here) and the website is deployed via
 GitHub pages.
 
-The source code resides on the `master` branch and upon every change (merged
+The source code resides on the `main` branch and upon every change (merged
 pull request), it auto-generates the `gh-pages` branch which containes the
 generated HTML code.
 
