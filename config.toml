@@ -22,10 +22,10 @@ highlight_code = true
 
 navigation = [
   { name = "About", path = "/" },
-  { name = "Consortium", path = "/consortium/" },
+  { name = "Network", path = "/consortium/" },
 # commented out because we are missing there real names
 # { name = "Support", path = "/support/" },
-  { name = "News", path = "/news/" },
+# { name = "News", path = "/news/" },
 ]
 
 profile_logo = "logo.png"
