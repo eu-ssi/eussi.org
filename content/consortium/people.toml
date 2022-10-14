@@ -35,12 +35,6 @@ homepage = "https://www.gfz-potsdam.de/en/staff/martin-hammitzsch/"
 text = "Martin is the head of eScience Centre at Helmholtz Centre Potsdam German Research Centre for Geosciences (GFZ)."
 
 [[team]]
-name = "Bezaye Tesfaye Belayneh"
-picture = "bezaye.jpeg"
-homepage = "https://www.gfz-potsdam.de/staff/bezaye-tesfaye-belayneh/id2/"
-text = "Bezaye is a research software engineer at Helmholtz Centre Potsdam German Research Centre for Geosciences (GFZ)."
-
-[[team]]
 name = "Neil Chue Hong"
 picture = "neil_chue_hong.jpg"
 homepage = "https://www.software.ac.uk/about/staff/person/neil-chue-hong"
