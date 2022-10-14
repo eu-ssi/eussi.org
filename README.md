@@ -2,8 +2,7 @@
 
 # EUSSI website
 
-The sources behind https://eu-ssi.github.io/eussi.org/ (later we will serve
-this via https://eussi.org).
+The sources behind <https://eussi.org>.
 
 Templates and Sass sources adapted from https://github.com/bennetthardwick/simple-dev-blog-zola-starter
 (MIT license).
