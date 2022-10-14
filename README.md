@@ -1,5 +1,3 @@
-
-
 # EUSSI website
 
 The sources behind <https://eussi.org>.
@@ -65,3 +63,6 @@ folder layout, functionality, and minimal dependencies.
 
 But like any other static site generator, we will mostly only need to edit
 Markdown files.  I can help with everything else.
+
+And also no problem to migrate to something else if that simplifies
+maintenance.  This was just to get something up on the web.
