@@ -24,7 +24,6 @@ navigation = [
   { name = "About", path = "/" },
   { name = "Network", path = "/consortium/" },
 # commented out because we are missing there real names
-# { name = "Support", path = "/support/" },
 # { name = "News", path = "/news/" },
 ]
 
