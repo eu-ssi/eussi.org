@@ -19,7 +19,7 @@
         {% endif %}
         <br>
         <p>
-          {{ person.text }}
+          {{ person.text | markdown | safe }}
         </p>
       </div>
     {% endfor %}
