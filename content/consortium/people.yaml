@@ -1,0 +1,43 @@
+---
+team:
+  - name: "Radovan Bast"
+    picture: "bast.jpg"
+    homepage: "https://bast.fr"
+    text:
+      Some short text about my involvement
+  - name: "Stephan Druskat"
+    picture: "stephan-druskat.png"
+    homepage: "https://sdruskat.net"
+    text:
+      Stephan is a software engineering researcher at the German Aerospace Center
+      (DLR).
+  - name: "Jose Benito Gonzalez Lopez"
+    picture: "jose-benito-gonzalez.jpg"
+    homepage: "http://twitter.com/jotabe"
+    text:
+      Jose leads a section at CERN that is responsible for Zenodo and other
+      software projets.
+  - name: "Carlos Martinez-Ortiz"
+    picture: "carlos-martinez.jpg"
+    homepage: "https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/"
+    text:
+      Carlos is community manager & technolgy lead at the Netherlands eScience
+      Center.
+  - name: "Carina Haupt"
+    picture: "carinahaupt.jpg"
+    homepage: "https://www.dlr.de/sc/desktopdefault.aspx/tabid-1192/1635_read-28643/sortby-lastname/"
+    text:
+      Carina is head of the Sustainable Software Engineering group at German
+      Aerospace Center (DLR).
+  - name: "Martin Hammitzsch"
+    picture: "hammitzsch.jpg"
+    homepage: "https://www.gfz-potsdam.de/en/staff/martin-hammitzsch/"
+    text:
+      Martin is the head of eScience Centre at Helmholtz Centre Potsdam German
+      Research Centre for Geosciences (GFZ).
+  - name: "Neil Chue Hong"
+    picture: "neil_chue_hong.jpg"
+    homepage: "https://www.software.ac.uk/about/staff/person/neil-chue-hong"
+    text:
+      Neil is the Director of the Software Sustainability Institute, and a Senior
+      Research Fellow at EPCC, based at the University of Edinburgh.

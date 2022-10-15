@@ -4,7 +4,7 @@
   {{ section.content | safe }}
 
   <h2>The EUSSI organizing team</h2>
-  {% set data = load_data(path="content/consortium/people.toml") %}
+  {% set data = load_data(path="content/consortium/people.yaml") %}
   <div bp="grid 6@sm 6@md 4@lg">
     {% for person in data.team %}
       <div class="center">
@@ -26,7 +26,7 @@
   </div>
 
   <h2>Involved organizations</h2>
-  {% set data = load_data(path="content/consortium/organizations.toml") %}
+  {% set data = load_data(path="content/consortium/organizations.yaml") %}
   <div bp="grid 12@sm 12@md 6@lg">
     {% for organization in data.organizations %}
       <div class="center-image">

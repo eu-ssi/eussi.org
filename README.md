@@ -36,12 +36,9 @@ around CSS/Sass.
 You can modify the page layouts by editing files inside the [templates](templates) folder.
 
 To add data to the consortium team and organizations page, please edit
-[content/consortium/people.toml](content/consortium/people.toml)
+<content/consortium/people.yaml>
 and
-[content/consortium/organizations.toml](content/consortium/organizations.toml).
-
-Similarly you can add/edit supporting persons/organizations in
-[content/support](content/support).
+<content/consortium/organizations.yaml>.
 
 Don't hesitate to ask [Radovan Bast](mailto:firstname.lastname@uit.no) for help with
 how to implement some changes that you have in mind.
