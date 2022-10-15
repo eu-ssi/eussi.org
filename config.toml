@@ -37,6 +37,6 @@ accent_light = "#82d0c0"
 footer_about = """
 Contact: [EUSSI consortium](mailto:eussi@listserv.dfn.de).
 This site is hosted on [GitHub](https://github.com/eu-ssi/eussi.org).
-[Here](https://github.com/eu-ssi/eussi.org/blob/master/README.md) are instructions
+[Here](https://github.com/eu-ssi/eussi.org/blob/main/README.md) are instructions
 on how to apply/suggest changes.
 """
