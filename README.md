@@ -1,4 +1,4 @@
-# EUSSI website
+# EuSSI website
 
 The sources behind <https://eussi.org>.
 

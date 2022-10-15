@@ -3,7 +3,7 @@
 {% block content %}
   {{ section.content | safe }}
 
-  <h2>The EUSSI organizing team</h2>
+  <h2>The EuSSI organizing team</h2>
   {% set data = load_data(path="content/consortium/people.yaml") %}
   <div bp="grid 6@sm 6@md 4@lg">
     {% for person in data.team %}
