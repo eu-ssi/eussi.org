@@ -1,92 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
+    <title>{{ config.title }}</title>
+    <link rel="shortcut icon" href="{{ get_url(path="img/favicon.ico") }}">
 
-    <style>
-      :root {
-        --accent-color: {{ config.extra.accent }};
-        --accent-color-light: {{ config.extra.accent_light }};
-      }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="theme-color" content="{{ config.extra.accent }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/css/uikit.min.css" integrity="sha256-pZpHRcj6CZFsRBMsTVN1REToJ5NifDqnDiHldc30NCs=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit.min.js" integrity="sha256-aelue+yPguqZ2R/rxKq0mc7aYS5hGssFutBxDMFPmXY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit-icons.min.js" integrity="sha256-B2F7jNPCGnXJUiAkZUB2rElbStXvhNgS/m+Aw1sRQwo=" crossorigin="anonymous"></script>
 
-    <meta property="og:type" content="website" />
+    {% include "twitter.html" %}
 
-    {% if config.extra.twitter_image %}
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content="{{ config.extra.twitter_image | safe }}" />
-    {% endif %}
-
-    {% if page.description %}
-      <meta name="description" content="{{ page.description }}" />
-      <meta name="twitter:description" content="{{ page.description }}" />
-    {% else %}
-      <meta name="description" content="{{ config.description }}" />
-      <meta name="twitter:description" content="{{ config.description }}" />
-    {% endif %}
-
-    {% if page.title %}
-      <meta name="twitter:title" content="{{ page.title }}" />
-    {% else %}
-      <meta name="twitter:title" content="{{ config.title }}" />
-    {% endif %}
-
-    <title>
-      {% block title %}
-        {% if page.title %}
-          {{ page.title }}
-        {% else %}
-          {{ config.title }}
-        {% endif %}
-      {% endblock title %}
-    </title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://unpkg.com/blueprint-css@3.1.1/dist/blueprint.min.css" rel="stylesheet" />
-    <link href="{{ get_url(path="main.css") | safe }}" rel="stylesheet" />
+    <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
   </head>
+
   <body>
-    <header>
-      <div bp="grid">
-        <div bp="12@sm 10@md 10@lg">
-          <p>
-            {{ config.title }}
-            <br>
-            {{ config.description }}
-          </p>
-          <nav>
-            <div class="topnav" id="mytopnav">
-              {% for link in config.extra.navigation %}
-                <a href="{{ config.base_url ~ link.path | safe }}">{{ link.name }}</a>
-              {% endfor %}
-              <a href="javascript:void(0);" class="icon" onclick="toggle_hamburger()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-          </nav>
-        </div>
+    <div class="uk-container uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-large-bottom">
+
+      {% include "navigation.html" %}
+
+      <div class="markdown">
+        {% block content %}
+        {% endblock content %}
       </div>
-    </header>
 
-    <main>
-      {% block content %} {% endblock content %}
+      <hr class="uk-margin-large-top">
 
-      <hr class="footer-rule" />
+      {% include "footer.html" %}
 
-      {% if config.extra.footer_about %}
-        <div class="footer-about">
-          {{ config.extra.footer_about | markdown | safe }}
-        </div>
-      {% endif %}
-
-      <script src="/js/own.js"></script>
-    </main>
+    </div>
   </body>
 </html>

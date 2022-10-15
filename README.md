@@ -2,9 +2,6 @@
 
 The sources behind <https://eussi.org>.
 
-Templates and Sass sources adapted from https://github.com/bennetthardwick/simple-dev-blog-zola-starter
-(MIT license).
-
 
 ### How this works
 
@@ -30,9 +27,6 @@ these via the web or by opening pull requests.
 If you want to add new pages to the navigation bar or modify the navigation
 bar, modify `navigation` in [config.toml](config.toml).
 
-You can change the looks inside the [sass](sass) folder if you know your way
-around CSS/Sass.
-
 You can modify the page layouts by editing files inside the [templates](templates) folder.
 
 To add data to the consortium team and organizations page, please edit
@@ -57,7 +51,7 @@ $ zola serve
 
 ### Why Zola and not X?
 
-Radovan: sorry, personal choice but I have been working with a number of static
+Radovan: Sorry, personal choice but I have been working with a number of static
 site generators and this one stands out in terms of design, good defaults,
 folder layout, functionality, and minimal dependencies.  And also no problem to
 migrate to something else if that simplifies maintenance.  This was just to get

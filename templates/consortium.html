@@ -3,21 +3,17 @@
 {% block content %}
   {{ section.content | safe }}
 
+
+
   <h2>The EuSSI organizing team</h2>
   {% set data = load_data(path="content/consortium/people.yaml") %}
-  <div bp="grid 6@sm 6@md 4@lg">
+  <div class="uk-child-width-expand@s uk-text-center" uk-grid>
     {% for person in data.team %}
-      <div class="center">
-        {% set member_image = resize_image(path="consortium/" ~ person.picture, width=100, height=100, op="fill") %}
-        <img src="{{ member_image.url }}"
-             alt="consortium member picture">
+      <div class="uk-width-1-3@m">
+        {% set image = resize_image(path="consortium/" ~ person.picture, width=140, height=140, op="fill") %}
+        <img src="{{ image.url }}">
         <br>
-        {% if person.homepage %}
-          <a href="{{ person.homepage | safe }}">{{ person.name }}</a>
-        {% else %}
-          {{ person.name }}
-        {% endif %}
-        <br>
+        <a href="{{ person.homepage | safe }}">{{ person.name }}</a>
         <p>
           {{ person.text | markdown | safe }}
         </p>
@@ -27,14 +23,14 @@
 
   <h2>Involved organizations</h2>
   {% set data = load_data(path="content/consortium/organizations.yaml") %}
-  <div bp="grid 12@sm 12@md 6@lg">
+  <div class="uk-child-width-expand@s" uk-grid>
     {% for organization in data.organizations %}
-      <div class="center-image">
-        {% set org_image = resize_image(path="consortium/" ~ organization.logo, width=150, op="fit_width") %}
-        <img src="{{ org_image.url }}"
-             alt="organization logo">
-      <br>
-      {{ organization.text | markdown | safe }}
+      <div class="uk-width-1-2@m">
+        {% set image = resize_image(path="consortium/" ~ organization.logo, height=100, op="fit_height") %}
+        <img src="{{ image.url }}">
+        <p>
+          {{ organization.text | markdown | safe }}
+        </p>
       </div>
     {% endfor %}
   </div>
