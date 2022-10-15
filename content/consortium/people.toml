@@ -8,7 +8,7 @@ text = "Some short text about my involvement"
 name = "Stephan Druskat"
 picture = "stephan-druskat.png"
 homepage = "https://sdruskat.net"
-text = "Stephan is a software engineering researcher at the German Aerospace Center (DLR), and on the board of the German Society for Research Software, de-RSE."
+text = "Stephan is a software engineering researcher at the German Aerospace Center (DLR)."
 
 [[team]]
 name = "Jose Benito Gonzalez Lopez"
