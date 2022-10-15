@@ -4,7 +4,9 @@ team:
     picture: "bast.jpg"
     homepage: "https://bast.fr"
     text:
-      Some short text about my involvement
+      Radovan leads the [CodeRefinery](https://coderefinery.org) project and
+      the high-performance computing and research software engineering group at
+      the University of Tromsø, Norway.
   - name: "Stephan Druskat"
     picture: "stephan-druskat.png"
     homepage: "https://sdruskat.net"
