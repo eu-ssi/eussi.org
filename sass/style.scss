@@ -9,6 +9,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.side {
+    font-size: 2em;
+    color: #84bade;
+}
+
 .markdown ul {
     @extend .uk-list;
     @extend .uk-list-square;
