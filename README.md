@@ -46,8 +46,11 @@ how to implement some changes that you have in mind.
 
 ### How to preview changes locally
 
-Install [Zola](https://www.getzola.org/), then run:
-```
+Install [Zola](https://www.getzola.org/). Or you can download the binary from
+[here](https://github.com/getzola/zola/releases).
+
+Then run:
+```console
 $ zola serve
 ```
 
@@ -56,10 +59,9 @@ $ zola serve
 
 Radovan: sorry, personal choice but I have been working with a number of static
 site generators and this one stands out in terms of design, good defaults,
-folder layout, functionality, and minimal dependencies.
+folder layout, functionality, and minimal dependencies.  And also no problem to
+migrate to something else if that simplifies maintenance.  This was just to get
+something up on the web.
 
 But like any other static site generator, we will mostly only need to edit
 Markdown files.  I can help with everything else.
-
-And also no problem to migrate to something else if that simplifies
-maintenance.  This was just to get something up on the web.
