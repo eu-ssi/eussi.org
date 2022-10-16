@@ -20,8 +20,8 @@ highlight_theme = "cheerfully-light"
 [extra]
 
 navigation = [
-  { name = "About", path = "/" },
-  { name = "Network", path = "/network/" },
+  { name = "About", target = "/" },
+  { name = "Network", target = "/network/" },
 ]
 
 # twitter_image = "example.png"
