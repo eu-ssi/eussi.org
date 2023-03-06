@@ -33,7 +33,7 @@ The training bazar is an activity organised by the EuSSI with the following goal
 | Peter Pelz (NFDI Section Training & Education) | Germany’s Research Data Management Infrastructure (NFDI) and its national approach to connect training offers, teaching resources and material | LINK TO SLIDES |
 | Lieke de Boer (Netherlands eScience Center) | Research Software Training NL - building training coordination network in the Netherlands | LINK TO SLIDES |
 | Matias Jääskeläinen (CodeRefinery) | CodeRefinery  | LINK TO SLIDES |
-| Michel Hernandez Villanueva (DESY and HSF) | Training Activities and Experiences in the HSF | LINK TO SLIDES |
+| Michel Hernandez Villanueva (DESY and HSF) | Training Activities and Experiences in the HSF | [SLIDES](https://doi.org/10.5446/60138) |
 | Danielle Sieh (The Carpentries) | The Carpentries - plans and implementation for signing-up for workshops with AMY, post teaching opportunities, match skills, interest, and availability | LINK TO SLIDES |
 
 
