@@ -37,8 +37,10 @@ The training bazar is an activity organised by the EuSSI with the following goal
 | Danielle Sieh (The Carpentries) | The Carpentries - plans and implementation for signing-up for workshops with AMY, post teaching opportunities, match skills, interest, and availability | LINK TO SLIDES |
 
 
-### Round table discussion
+### Summary of discussion
+During the session it was clear that all participants share a common issue: training opportunities for RSE skills are in high demand and there is a big need for more trainings and more instructors. It was clear that there is a need for more coordination between organizations that provide trainings across Europe. Reusing training materials, automating workshop organisation, sharing experiences, are just some ideas on how this cooperation could benefit all parties involved.
 
-SUMMARY OF DISCUSSION ?
+
+You can also read the [HIFIS at the EuSSI training bazar](https://hifis.net/news/2022/11/30/HIFIS-at-EuSSI-training-bazar.html) blog post!
 
 {{ enddiv() }}
