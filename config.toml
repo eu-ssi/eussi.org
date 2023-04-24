@@ -21,6 +21,7 @@ highlight_theme = "cheerfully-light"
 
 navigation = [
   { name = "About", target = "/" },
+  { name = "Training bazaar 2022", target = "/bazaar/" },
   { name = "Network", target = "/network/" },
 ]
 
