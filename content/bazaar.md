@@ -36,9 +36,9 @@ goals:
 - **Education and Training in HIDA, HIFIS and Helmholtz AI: Status Quo and Fut
 ure Perspectives** - Fredo Erxleben (Helmholtz Federated IT Services, HIFIS), Stephanie Schworm (Helmholtz Information and Data Science Academy HIDA), Donatella Cea (Helmholtz AI)
 - **Germany’s Research Data Management Infrastructure (NFDI) and its national approach to connect training offers, teaching resources and material** - Peter Pelz (NFDI Section Training & Education)
-- **Research Software Training NL - building training coordination network in the Netherlands** - Lieke de Boer (Netherlands eScience Center) - [slides](https://doi.org/10.5446/60137)
-- **About the CodeRefinery project** - Matias Jääskeläinen (CSC/CodeRefinery)
-- **Training Activities and Experiences in the HSF** - Michel Hernandez Villanueva (DESY and HSF) - [slides](https://doi.org/10.5446/60138)
+- **Research Software Training NL - building training coordination network in the Netherlands** - Lieke de Boer (Netherlands eScience Center) - [video & slides](https://doi.org/10.5446/60137)
+- **About the CodeRefinery project** - Matias Jääskeläinen (CSC/CodeRefinery) - [video & slides](https://doi.org/10.5446/60140)
+- **Training Activities and Experiences in the HSF** - Michel Hernandez Villanueva (DESY and HSF) - [video & slides](https://doi.org/10.5446/60138)
 - **The Carpentries - plans and implementation for signing-up for workshops with AMY, post teaching opportunities, match skills, interest, and availability** - Danielle Sieh (The Carpentries)
 
 
